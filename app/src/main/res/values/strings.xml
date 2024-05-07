@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MAD_lab_testing</string>
+    <string name="follower">3.2k</string>
+    <string name="Firstname">Dara</string>
+    <string name="Lastname">Wan</string>
+    <string name="fb_name">Dara Wan</string>
+    <string name="university">Royal University of Phnom Penh</string>
+    
+    <string name="home">Home</string>
+    <string name="provinces">Provinces</string>
+    <string name="search">Search</string>
+    <string name="account">Account</string>
+    <string name="more">More</string>
+
+</resources>
