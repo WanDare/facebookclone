@@ -10,7 +10,6 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.mad_lab_testing.databinding.FragmentAccountBinding;
-import com.example.mad_lab_testing.databinding.FragmentSearchBinding;
 
 public class AccountFragment extends Fragment {
 
