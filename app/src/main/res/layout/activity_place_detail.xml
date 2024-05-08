@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- Background Image -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#80FFFFFF"
+            android:elevation="4dp">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:src="@drawable/baseline_arrow_back_ios_new_24"
+                app:tint="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/shareItem"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_share"
+                app:tint="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/bookMark"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_mark"
+                app:tint="@android:color/white" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/profileBackground"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:background="@drawable/royal"/>
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#80FFFFFF"
+        android:elevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+<!--            <com.google.android.material.button.MaterialButton-->
+<!--                -->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="48dp"-->
+<!--                android:text="@string/about"-->
+<!--                android:textColor="@color/green"-->
+<!--                android:backgroundTint="@android:color/white"-->
+<!--                app:strokeColor="@color/green"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                app:strokeWidth="2dp" />-->
+
+            <TextView
+                android:id="@+id/btnAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/bg_place_detail_menu"
+                android:gravity="center"
+                android:paddingHorizontal="16dp"
+                android:text="@string/about"
+                android:textColor="@color/txt_place_detail_menu"/>
+            <TextView
+                android:id="@+id/btnPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/bg_place_detail_menu"
+                android:gravity="center"
+                android:paddingHorizontal="16dp"
+                android:text="@string/photos"
+                android:textColor="@color/txt_place_detail_menu"/>
+            <TextView
+                android:id="@+id/btnReviews"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/bg_place_detail_menu"
+                android:gravity="center"
+                android:paddingHorizontal="16dp"
+                android:text="@string/reviews"
+                android:textColor="@color/txt_place_detail_menu"/>
+
+<!--            <com.google.android.material.button.MaterialButton-->
+<!--                android:id="@+id/btnPhoto"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="48dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:background="@drawable/bg_place_detail_menu"-->
+<!--                android:text="@string/photo" />-->
+
+<!--            <com.google.android.material.button.MaterialButton-->
+<!--                android:id="@+id/btnReviews"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="48dp"-->
+<!--                android:text="@string/reviews"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:backgroundTint="@color/green"/>-->
+
+        </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lytFragment" />
+
+</LinearLayout>

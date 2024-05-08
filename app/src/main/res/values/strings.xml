@@ -5,11 +5,19 @@
     <string name="Lastname">Wan</string>
     <string name="fb_name">Dara Wan</string>
     <string name="university">Royal University of Phnom Penh</string>
+    <string name="royal">Royal Palace</string>
+    <string name="related">Related Places</string>
     
     <string name="home">Home</string>
     <string name="provinces">Provinces</string>
     <string name="search">Search</string>
     <string name="account">Account</string>
     <string name="more">More</string>
+
+    <string name="about">About</string>
+    <string name="photos">Photos</string>
+    <string name="reviews">Reviews</string>
+
+    <string name="lorem">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
 
 </resources>

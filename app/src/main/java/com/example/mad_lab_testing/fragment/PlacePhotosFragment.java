@@ -9,18 +9,15 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.mad_lab_testing.databinding.FragmentAccountBinding;
+import com.example.mad_lab_testing.databinding.FragmentPlacePhotosBinding;
 
-public class AccountFragment extends Fragment {
-
-    private FragmentAccountBinding binding;
-
+public class PlacePhotosFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        binding = FragmentAccountBinding.inflate(inflater, container, false);
+        FragmentPlacePhotosBinding binding = FragmentPlacePhotosBinding.inflate(inflater, container, false);
         return binding.getRoot();
-    }
 
+    }
 }
