@@ -13,6 +13,7 @@
     <string name="search">Search</string>
     <string name="account">Account</string>
     <string name="more">More</string>
+    <string name="places">Places</string>
 
     <string name="about">About</string>
     <string name="photos">Photos</string>
@@ -20,4 +21,7 @@
 
     <string name="lorem">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
     <string name="error_profile">Failed to load profile. Please try again later.</string>
+
+    <string name="detail">The Royal Palace is a complex of buildings which serves as the royal residence of the King of Cambodia. Its full name in the Khmer language is Preah Barom Reachaviang Chaktomuk Serei Mongkol.</string>
+    <string name="location">(~ 2.5km) Sothearos between street 240 &amp; 184, Phnom Penh</string>
 </resources>

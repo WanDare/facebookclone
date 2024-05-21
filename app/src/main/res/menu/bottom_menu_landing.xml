@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/mnuHome" android:title="@string/home" android:icon="@drawable/ic_home"/>
-    <item android:id="@+id/mnuProvince" android:title="@string/provinces" android:icon="@drawable/ic_province"/>
+    <item android:id="@+id/mnuProvince" android:title="@string/places" android:icon="@drawable/ic_province"/>
     <item android:id="@+id/mnuSearch" android:title="@string/search" android:icon="@drawable/ic_search"/>
     <item android:id="@+id/mnuAccount" android:title="@string/account" android:icon="@drawable/ic_account"/>
     <item android:id="@+id/mnuMore" android:title="@string/more" android:icon="@drawable/ic_more"/>
